@@ -97,11 +97,21 @@
 <section class="suscripcion">
     <div class="contenedor">
         <h2>Solicita tu registro para las campañas</h2>
-        <form action="#">
-            <input type="text" name="nombre" placeholder="Ingresa tu nombre..." required>
-            <input type="email" name="email" placeholder="Ingresa tu correo..." required>
-            <input type="submit" name="valor" value="Registrate">
-        </form>
+        <forma
+  acción="https://formspree.io/f/mvzjpjpy"
+  método="PUBLICAR"
+>
+  <etiqueta>
+    E-mailul tău:
+    <entrada tipo="correo electrónico" nombre="correo electrónico">
+  </etiqueta>
+  <etiqueta>
+    Mesajul tău:
+    <área de texto nombre="mensaje"></área de texto>
+  </etiqueta>
+  <!-- tus otros campos de formulario van aquí -->
+  <botón tipo="enviar">Enviar</botón>
+</forma>
     </div>
 </section> <!-- FIN SUSCRIPCION -->
 <footer class="piedepagina" role="contentinfo">
